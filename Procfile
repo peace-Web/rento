@@ -1,1 +1,1 @@
-web gunicorn stateRent.wsgi --log-file -
+web: gunicorn stateRent.wsgi --log-file -
