@@ -29,6 +29,7 @@ ALLOWED_HOSTS = ["rento-production.up.railway.app"]
 
 
 # Application definition
+# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
