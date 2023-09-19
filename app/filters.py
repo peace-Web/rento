@@ -1,9 +1,6 @@
-import django_filters
-
-
-
 
 from .models import *
+import django_filters
 
 class OrderFilter(django_filters.FilterSet):
     # price = django_filters.NumberFilter()
