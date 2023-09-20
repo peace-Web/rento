@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["rento-production.up.railway.app"]
 
-CSRF_TRUSTED_ORIGINS = ['https://*.rento-production.up.railway.app','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://rento-production.up.railway.app','https://127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
@@ -88,9 +88,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER' : 'postgres',
-        'PASSWORD': 'a6Cedf9xz4NNtp7YbtsL',
-        'HOST': 'containers-us-west-169.railway.app',
-        'PORT': '7874',
+        'PASSWORD': 'HQ9UQRfQ2vhab44irnNw',
+        'HOST': 'containers-us-west-101.railway.app',
+        'PORT': '7170',
     }
 }
 
