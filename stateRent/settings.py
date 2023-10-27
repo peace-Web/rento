@@ -9,6 +9,8 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
+import pymysql
+pymysql.install_as_MySQLdb()
 
 from pathlib import Path
 
@@ -38,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
-    'django_filters'
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -85,12 +87,12 @@ WSGI_APPLICATION = 'stateRent.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',
-        'USER' : 'postgres',
-        'PASSWORD': 'HQ9UQRfQ2vhab44irnNw',
-        'HOST': 'containers-us-west-101.railway.app',
-        'PORT': '7170',
+        'USER' : 'root',
+        'PASSWORD': 'AHcb3--cFCFCAc-faagfbHb4hGE5G323',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': '49496',
     }
 }
 
